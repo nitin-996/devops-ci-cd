@@ -10,7 +10,7 @@ pipeline{
                 
                 script{
                     
-                    git branch: 'main', url: ''
+                    git branch: 'master', url: 'https://github.com/nitin-996/devops-ci-cd.git'
                 }
             }
         }
